@@ -1,0 +1,507 @@
+
+body
+{
+	background-color: rgba(152, 20, 119, 0.15);
+  font-family: 'century Gothic',calibri, serifs;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+/* mise en forme de du menu principal
+*/
+h1
+{ 
+	font-size: 45px;
+
+/*	text-align: center; 
+*/}
+
+
+header
+{
+	height: 100px;
+	background-color: #4583
+/*	background-image: url(img/indx.png);
+        background-position: 0px 0px;
+        background-color: ;
+        width: 100px;
+	    height: 118px;
+/*	    display: block;	
+	    padding: 12px;
+	    margin: 12px;
+	    background-repeat: no-repeat;*/
+	}
+}
+footer
+{
+	 height: 80px; 
+	 padding-top: 30px;
+	 text-align: center;
+	 background-color: #c5c5c5;
+	 border-top: 2px solid #AAA; 
+}
+/*la mise en forme du menu principale
+*/ nav
+ {
+ 	width: 100%;
+ 	background-color: #424557;
+
+ }
+ nav ul
+ {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ nav li
+ {
+    list-style-type: none;
+    float: left;
+ }
+ nav a
+ {
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	padding: 20px 30px;
+ 	color:#FFF;
+ 	text-transform: uppercase;
+ 	font-size: 15px; 
+ }
+ .table
+ {    
+ 	display: table;
+ 	margin: 0 auto;
+ }
+.menu-accueil
+{
+	border-top: 5px solid;
+	background-color:  #424557;
+}
+
+.menu-accueil:hover
+{
+/*	border-top: 5px solid;
+*/	background-color: orange;
+}
+
+
+.menu_inscription
+{
+	border-top: 5px solid;
+	background-color:  #424557;
+}
+.menu_inscription:hover
+{
+/*	border-top: 5px solid;
+*/	background-color:rgba(152, 20, 119, 0.8) ;
+}
+
+
+.menu-contact
+{
+    border-top: 5px solid;
+	background-color:  #424557;	
+}
+
+.menu-contact:hover
+{
+/*    border-top: 5px solid;
+*/	background-color: blue;	
+}
+
+.menu-loisir
+{
+	border-top: 5px solid;
+	background-color: #424557;	
+}
+.menu-loisir:hover
+{
+	/*border-top: 50px solid;*/
+	background-color: red;	
+}
+.menu-action
+{
+	border-top: 5px solid;
+	background-color:  #424557;	
+}
+
+.menu-action:hover
+{
+/*	border-top: 5px solid;
+*/	background-color: green;	
+}
+
+
+nav li:hover a
+{
+	padding: 15px30px 20px 30px;
+}
+@media screen and (max-width:780px)
+{
+header{
+	height: 50px;
+   }
+   h1
+   {
+	font-size: 28px;
+	margin:20px 0px 0px 0px;
+   }
+   nav li a 
+   {
+   	font-size:12px;
+   	padding: 10px; 
+   }
+   nav li:hover a{
+   	padding:5px 10px 10px 10px;  
+   }
+
+}
+ .rouge
+ {
+ 	border-top:5px solid #e44d26;
+ 	 background-color: rgb(2500 ,000 ,130 ,00, 15);   
+ 	 text-align: center;
+ }
+ .jo
+ {
+ 	background-color: #e44d26;
+ 	margin: 15px;
+ 	padding: 20px;
+ 	text-align: center;
+ }
+ #section1
+ {
+ 	background-color:rgba(72, 37, 50, 0.13);
+ 	padding: 10px;
+ 	margin: 25px 2px;
+
+ }
+ #section2
+ {
+ 	background-color:rgba(72, 37, 50, 0.13);
+ 	padding: 10px;
+ 	margin: 25px 2px;
+ 	
+ }
+/* la mise en forme de la page inscription
+*/ legend/*( dans la page inscription)*/
+ {
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	font-size: 50px;
+ 	color: black; 
+ 	text-align:center;
+ }
+
+
+ #section1 input
+ {
+ 	width: 300px;
+ 	height: 20px;
+ }
+
+ 
+
+.selectHF
+ {
+ 	width: 300px;
+ 	height: 20px;
+ }
+
+
+ #section2 input
+ {
+ 	width: 300px;
+ 	height: 20px;
+
+ }
+ #section1 label
+ {
+ 	display: inline-block;
+ 	width: 200px;
+ 	padding: 10px 0px 15px 40px;
+
+ }
+ #section2 label
+ {
+ 	display: inline-block;
+ 	width: 200px;
+ 	padding: 10px 0px 15px 40px;
+
+ }
+ select
+ {
+ 	display: inline-block;
+ 	width: 20px;
+    padding: 20px 0px 15px 40px;
+ 	width: 200px;
+ 	height: 20px;
+
+ }
+ input[type="submit"]
+ {
+/* 	float: right;
+*/ 	padding: 12px;
+ 	font-size: 15px;
+ 	color: #fff;
+ 	background-color: black;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	border-radius: 5px;
+ 	
+ }
+ input[type="submit"]:hover{
+ 	box-shadow:  0px 0px 4px #555;
+ background-color:#e8ab2e;
+ 
+ }
+ 
+
+/* fin de la page inscription
+
+*/ 
+/* debut de la mise en forme de la page conctact
+*/textarea
+{
+  width: 150px;
+  height: 45px;
+  text-align: center;
+}
+input, .divSelect
+{
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid black;
+}
+
+
+.formIP
+{
+
+/*	border: 1px solid black;
+*/}
+
+/*fin de la mise en forme de la page conctact
+*/form
+ {
+ 	padding: 15px;
+ 	margin: 20px;
+
+ }
+.mention
+{
+	padding: 10px;
+	text-align: center;
+}
+
+.fond
+{
+	text-align: center;
+	background-color: #76504e;
+
+}
+.apres_menu
+{
+	
+
+	text-align: center;
+	background-image: url(../imgCR_derbi_2013_cropped.png);
+}
+/* debut de  la mise en forme de la page accueil
+*/.rene
+{
+ padding: 12px;
+ margin: 5px;
+ border-top: 12px;
+}
+.titre1
+{
+	background-color: blue;
+}
+.titre2
+{
+	background-color: red;
+}
+.irie
+{
+	padding: 12px;
+	margin:5px;
+	border-top: 12px;
+	left: 10px;
+	right: 12px;
+}
+/* fin de  la mise en forme de la page accueil
+*/
+/*debut de la mise en forme de la page loisirs
+*/.foot,.basket,.natation,.velo{
+	padding: 12px;
+	margin:5px;
+	border-top: 12px;
+	left: 10px;
+	right: 12px;
+/*	float: right;
+*/
+}
+
+	
+
+/*	float: right;
+*/
+}
+
+
+img,.sprites
+{
+/*	text-align: center;
+*/	padding: 10px;
+	margin: 5px;
+	right: 12px;
+}
+.titre_loisir
+{
+	text-align: center;
+	background-color: red;
+}  
+/*fin de la mise en forme de la page loisirs
+*/
+h4
+{
+	text-align: center;
+	color:black;
+} 
+
+
+#tw ,#inst , #youtube, #fb{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	/*border: 20px solid black;*/
+	/*position: relative;*/
+	/*display: flex;*/
+}
+
+
+#fb
+{
+	background-image: url(img/images.png);
+	/*position: relative;
+	bottom: 0px;
+	left: 550px;*/
+	border-radius: 2px;
+	/*border: 20px solid black;*/
+
+
+}
+
+#tw
+{
+	background-image: url(img/index6.jpg);
+
+     /*position: relative;
+	bottom: 25px;
+	left: 525px;*/
+	border-radius: 2px;
+	
+
+
+
+/*	left: 200px;
+*/}
+
+#inst
+{
+	background-image: url(img/index5.jpg);
+	/*position: relative;
+	bottom: 50px;
+	left: 500px;
+     */
+	border-radius: 2px;
+		
+
+		     
+
+/*	left: 200px;
+
+*/}
+
+#youtube
+{
+/*	background-image: url(img/images6.png);
+*/	background-image: url(img/whatsapp.jpg);
+	/*position: relative;
+	background-repeat: no-repeat;
+	bottom: 70px;
+	left: 475px;*/
+	/*border: 20px solid black;*/
+
+	border-radius: 2px;
+		
+/*	left: 200px;
+*/}
+
+
+.photo
+{
+/*	background-color: red;
+*/		background-image: url(img/Image1.png);
+        background-position:12px 10px;
+        background-color: ;
+        width: 280px;
+	    height: 428px;
+	    display: block;
+/*        background-repeat: no-repeat;
+*/
+}
+.nage
+{
+	background-image: url(img/images.jpg);
+/*	background-image: url(img/index1.jpg);
+*/	width: 500px;
+	height: 428px;
+/*	display: block;
+*/	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.nage1
+{
+/*	background-image: url(img/images.jpg);
+*/	background-image: url(img/index1.jpg);
+	width: 500px;
+	height: 428px;
+/*	display: block;
+*/	background-repeat: no-repeat;
+    background-position: right;
+}
+.entete1
+{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	
+}
+
+.entete
+{
+	position: absolute;
+	top: 8px;
+     left: 10px;
+	
+}
+
+
+.boxe
+{
+	position: absolute;
+	top: 80px;
+     right: 5px;
+	
+}
+
+
+
+
+
+
+	/*background-image: url(img/imgOK.jpg);*/
+	
+	 

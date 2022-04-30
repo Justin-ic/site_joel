@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<title>Inscription</title>
+</head>
+<meta charset="utf-8">
+<meta  name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="fichier.css">
+
+  <body>
+     <header>
+    	<center><h1>ALGETIKO</h1></center>
+            <div  class="entete">
+             <img src="img/index0.jpg">
+        </div>
+        <div class="entete1">
+            <img src="img/index.png">
+        </div>
+             <h5 class="boxe">Union-Disciple-Travail</h5>
+       
+
+     </header>
+     
+     <nav>
+     	<div class="table">
+    	    <ul>
+                 <li class="menu-accueil">
+              	    <a href="ACCUEIL.html">ACCUEIL</a>
+                 </li>
+                 <li class="menu-action">
+                 	<a href="LES_ACTIONNAIRES.html">ACTIONNAIRES</a>
+                 </li>
+                 <li  class="menu_inscription">
+              	   <a href="INSCRIPTION.html"> s'inscrire</a>
+                 </li>
+                 <li class="menu-contact">
+                 	<a href="CONTACT.html">CONTATEZ-NOUS</a>
+                 </li>
+                 <li class="menu-loisir">
+                 	<a href="loisir.html">LOISIRS</a> 
+                 </li>
+    	    </ul> 
+
+        </div>
+     </nav>
+<!--      <h1>les formulaires</h1>
+
+ -->   
+     <h4><center>INSCRIPTION</center></h4>
+     <form method="post" action="traitement.php">
+        <fieldset id="section1"  class="formIP">
+            <legend>les informations personnels</legend>
+           <label for="nom" class="formIP">NOM</label>
+           <input type="text" id="nom" name="NOM"required="required"  class="formIP">
+           <br><br>
+           <label for="nom">PRENOMS</label>
+           <input type="text" id="Prenom" name="prenoms" required="required">
+           <br><br>
+           <label  class="formIP">GENRE:</label>
+            <!-- <div class="divSelect"></div> -->
+         <select class="selectHF">
+             <option value="HOMME">HOMME</option>
+             <option value="FEMME">FEMME</option>
+         </select>
+            
+           <br><br>
+           <label for="naissance"> NE(E) LE </label>
+           <input type="date" id="naissance" name="naissance"required="required">
+           <br><br>
+           <label for="lieu"> LIEU DE NAISSANCE</label>
+           <input type="text" id="lieu" name="lieu"required="required">
+           <br><br>
+           <label for="nationalite"> NATIONALITE</label>
+           <input type="text" id="nationalite" name="nationalite"required="required">
+           <br><br>
+           <label for="TELEPHONE"> TELEPHONE</label>
+           <input type="number" id="numero" name="numero"required="required">
+           <br><br>
+           <label for="email"> EMAIL</label>
+           <input type="email" id="email" name="email">
+           <br><br>
+           <label for="nom">NOM DU PARENT</label>
+           <input type="text" id="nom" name="NOM"required="required">
+           <br><br>
+           <label for="lieu"> TELEPHONE DU PARENT</label>
+           <input type="number" id="numero" name="numero" required="required">
+           <br><br>
+        </fieldset>
+        <fieldset id="section2">
+            <legend>les informations academique</legend>
+           <label for="numero">NUMERO DE TABLE [bac]</label>
+           <input type="number" id="numero" name="numero"required="required">
+           <br><br>
+           <label>MENTION OBTENU AU BAC :</label>
+           <select class="mention selectHF">
+             <option value="passable">Passable</option>
+             <option value="assez-bien">Assez-Bien</option>
+             <option value="bien"selected>Bien</option>
+             <option value="très bien">Très-Bien</option>
+             <option value="excellent">Excellent</option>
+             <option value="honorable">Honorable</option>
+           </select>
+            <br><br>
+           <label for="niveau">NIVEAU ACTUEL:</label>
+           <input type="text" id="niveau" name="niveau">
+           <br><br>
+           <label for="niveau">Proffession</label>
+           <input type="text" id="proffession" name="proffession"required="required">
+           <br><br>
+           <label for="filière">FILIERE</label>
+           <input type="text" id="filière" name="filière">
+           <br><br>
+           <label for="UFR">ECOLE/STRUCTURE/UNIVERSITE</label>
+           <input type="text" id="UNIVERSITE" name="UNIVERSITE">
+           <br><br>
+        </fieldset>
+        <div class="center">
+           <input type="submit" value="Envoyer" >
+        </div>
+     </form>
+     <footer>
+        <div class="fond">
+     <!--        le sprite de telephone         
+
+            -->    +225 05-64-13-88-54 <br>
+            wawowelejoelouattara@gmail.com <br>
+          <!--          le sprite de position
+          -->Abobo-Adjame ,Abidjan<br>
+           A propos de nous <br>
+           Interface entre  les pourvoirs publics et le secteur privé ,l'ALGETIKO de côte d'ivoire est une structure (entreprise ) à caractère economique.<br> <br>
+           NOS SERVICES <br>
+       <li> Entreprendre</li>
+       <li>Trensfert d'argent internationnal et nationnal</li>
+       <li>Vente de poisson</li>
+         SUIVEZ-NOUS :
+          <div>
+                 <a href="http://facebook.com" id="fb" > </a> 
+                 <a href="http://twitter.com" id="tw">  </a>  
+                 <a href="http://instagram.com" id="inst"> </a>
+                 <a href="http://youtube.com" id="youtube"> </a>
+            </div>
+                
+        <!--  les differnetes sprites 
+        -->
+        </div>    	
+     </footer>
+  </body>
+</html> 
